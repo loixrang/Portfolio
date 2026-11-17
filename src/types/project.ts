@@ -6,5 +6,6 @@ export type Project = {
   description: string
   stack: string[]
   color: string
+  url: string
   features: string[]
 }

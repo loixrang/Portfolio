@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { ArrowRight, ChevronRight, ExternalLink, X } from 'lucide-react'
+import { ArrowRight, ChevronRight, X } from 'lucide-react'
 import type { Project } from '../../types/project'
 import { ProjectVisual } from './ProjectVisual'
 import { TagList } from '../ui/TagList'
@@ -59,12 +59,12 @@ export function ProjectDialog({ selected, onClose }: ProjectDialogProps) {
               ))}
             </ul>
             <TagList tags={selected.stack} />
-            <p className="dialog-note">
-              <ExternalLink aria-hidden="true" size={16} />
-              This is a portfolio layout concept, not a shipped product. Live
-              demos and source links will appear with verified projects.
-            </p>
-            <button className="button primary" onClick={() => onClose()}>
+
+            <button
+              className="button primary"
+              style={{ marginTop: 10 }}
+              onClick={() => onClose()}
+            >
               Back to projects <ArrowRight aria-hidden="true" size={17} />
             </button>
           </div>

@@ -22,6 +22,7 @@ export const projects: Project[] = [
       'Cloudinary',
     ],
     color: 'lavender',
+    url: 'https://craftlink.loixrang.com',
     features: [
       'Artisan discovery and service listings',
       'User authentication and profile management',
@@ -47,6 +48,7 @@ export const projects: Project[] = [
       'Better Auth',
     ],
     color: 'green',
+    url: 'https://everybuy.loixrang.com',
     features: [
       'Product and inventory management with stock movement tracking',
       'Dedicated stocktaking and inventory reconciliation',
@@ -69,6 +71,7 @@ export const projects: Project[] = [
       'Tailwind CSS',
     ],
     color: 'peach',
+    url: 'https://bank.loixrang.com',
     features: [
       'Modern banking dashboard and account overview',
       'Transaction history and activity views',

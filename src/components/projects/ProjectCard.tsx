@@ -41,9 +41,9 @@ export function ProjectCard({
       <div className="project-info">
         <div className="project-title">
           <h3>
-            <button onClick={() => onSelect(project)}>
+            <a href={project.url} target="blank">
               {project.name} <ArrowUpRight aria-hidden="true" size={20} />
-            </button>
+            </a>{' '}
           </h3>
           <span>{project.category} / Concept</span>
         </div>
