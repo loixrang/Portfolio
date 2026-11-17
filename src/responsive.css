@@ -1,0 +1,648 @@
+.header-inner .menu-toggle {
+  display: none;
+}
+
+@media (min-width: 1500px) {
+  h1 {
+    font-size: 84px;
+  }
+  .hero {
+    padding-top: 95px;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    width: calc(100% - 64px);
+  }
+  .hero {
+    gap: 18px;
+    padding-top: 64px;
+  }
+  h1 {
+    font-size: 58px;
+    letter-spacing: -3.5px;
+  }
+  .hero-actions {
+    gap: 18px;
+  }
+  .hero-actions .button {
+    padding-inline: 15px;
+    gap: 15px;
+  }
+  .code-window {
+    width: 88%;
+    margin-right: 0;
+  }
+  .section {
+    padding-block: 85px;
+  }
+  .technology-row {
+    grid-template-columns: 290px 1fr;
+    gap: 25px;
+  }
+  .about {
+    gap: 55px;
+  }
+  .about-copy h2 {
+    font-size: 33px;
+  }
+  .monogram {
+    font-size: 200px;
+    top: 80px;
+  }
+  .contact-inner {
+    gap: 55px;
+  }
+  .contact-link {
+    font-size: 21px;
+  }
+  .contact-inner h2 {
+    font-size: 56px;
+  }
+  .tempo-copy {
+    left: 25px;
+  }
+  .tempo-copy > span:first-child {
+    font-size: 23px;
+  }
+  .phone {
+    right: 23px;
+    width: 157px;
+    min-width: 157px;
+  }
+  .relay-app {
+    transform: translateY(25px) rotate(-4deg) scale(0.86);
+  }
+  .project-open:hover .relay-app {
+    transform: translateY(18px) rotate(-1deg) scale(0.86);
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+  .header-inner {
+    height: 74px;
+    gap: 20px;
+  }
+  .desktop-nav {
+    gap: 23px;
+    margin-left: 0;
+  }
+  .header-cta {
+    padding: 10px 12px;
+    gap: 12px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    max-width: 640px;
+    padding-top: 55px;
+    row-gap: 45px;
+  }
+  .hero-copy {
+    text-align: center;
+  }
+  .intro-line,
+  .hero-actions,
+  .hero-note {
+    justify-content: center;
+  }
+  h1 {
+    font-size: 73px;
+    letter-spacing: -4px;
+  }
+  .hero-description {
+    font-size: 14px;
+  }
+  .stack-scene {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 480px;
+  }
+  .code-window {
+    width: 77%;
+    margin-right: 17px;
+  }
+  .hero-bottom {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 10px;
+  }
+  .capability-strip > .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 23px;
+    padding-block: 24px;
+  }
+  .capability-strip span {
+    font-size: 11px;
+  }
+  .capability-strip .strip-plus:nth-child(6),
+  .capability-strip .strip-result {
+    display: none;
+  }
+  .section-heading {
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .section-heading > p {
+    max-width: 230px;
+  }
+  .section-heading > p br {
+    display: none;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .project-card:first-child .project-art {
+    height: 330px;
+  }
+  .orbit-app {
+    transform: translateY(50px) rotate(-3deg) scale(0.85);
+  }
+  .project-open:hover .orbit-app {
+    transform: translateY(44px) rotate(-1deg) scale(0.85);
+  }
+  .project-grid {
+    gap: 35px 20px;
+  }
+  .project-art {
+    height: 250px;
+  }
+  .project-title {
+    gap: 10px;
+  }
+  .project-title > span {
+    font-size: 9px;
+  }
+  .project-title h3 {
+    font-size: 22px;
+  }
+  .tags {
+    gap: 5px;
+  }
+  .relay-app {
+    transform: translateY(25px) rotate(-4deg) scale(0.7);
+  }
+  .project-open:hover .relay-app {
+    transform: translateY(18px) rotate(-1deg) scale(0.7);
+  }
+  .tempo-copy {
+    left: 20px;
+    top: 30px;
+  }
+  .tempo-copy > span:first-child {
+    font-size: 20px;
+  }
+  .tempo-copy > div {
+    display: none;
+  }
+  .tempo-word {
+    margin-top: 19px;
+    font-size: 12px;
+  }
+  .phone {
+    top: 60px;
+    right: 0;
+    transform: rotate(10deg) scale(0.87);
+    transform-origin: top center;
+  }
+  .project-open:hover .phone {
+    transform: translateY(-6px) rotate(5deg) scale(0.87);
+  }
+  .technology-row {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .about {
+    grid-template-columns: 1fr 1.2fr;
+    gap: 30px;
+  }
+  .about-visual {
+    height: 420px;
+    padding: 18px;
+  }
+  .about-label {
+    font-size: 8px;
+    gap: 5px;
+  }
+  .about-label svg {
+    width: 12px;
+  }
+  .monogram {
+    font-size: 160px;
+    letter-spacing: -17px;
+    top: 110px;
+  }
+  .monogram-dot {
+    font-size: 60px;
+  }
+  .about-copy h2 {
+    font-size: 29px;
+  }
+  .contact-inner {
+    gap: 30px;
+  }
+  .contact-inner h2 {
+    font-size: 48px;
+  }
+  .contact-link {
+    font-size: 19px;
+  }
+  .email-row {
+    font-size: 10px;
+    gap: 2px;
+  }
+  .stack-footnote > span:last-child {
+    display: none;
+  }
+  .work-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media (max-width: 560px) {
+  .desktop-nav,
+  .header-cta {
+    display: none;
+  }
+  .header-inner .menu-toggle {
+    display: inline-flex;
+  }
+  .header-inner {
+    height: 68px;
+  }
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 18px;
+    border-top: 1px solid var(--line);
+    background: var(--bg);
+  }
+  .mobile-nav > a {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line);
+    font-size: 14px;
+  }
+  .hero {
+    padding-top: 40px;
+    row-gap: 35px;
+  }
+  .hero-copy {
+    text-align: left;
+  }
+  .intro-line,
+  .hero-actions,
+  .hero-note {
+    justify-content: flex-start;
+  }
+  .intro-line {
+    font-size: 9px;
+    gap: 7px;
+  }
+  h1 {
+    font-size: clamp(40px, 10.8vw, 61px);
+    letter-spacing: -2.8px;
+    line-height: 1.1;
+    margin-top: 25px;
+    margin-bottom: 22px;
+  }
+  .hero-description {
+    font-size: 14px;
+    max-width: 350px;
+  }
+  .desktop-break {
+    display: none;
+  }
+  .hero-actions {
+    gap: 21px;
+  }
+  .hero-actions .button {
+    gap: 16px;
+    padding: 13px 16px;
+    font-size: 11px;
+  }
+  .hero-actions .text-link {
+    font-size: 11px;
+    gap: 8px;
+  }
+  .hero-note {
+    font-size: 9px;
+    margin-top: 25px;
+  }
+  .stack-scene {
+    max-width: 380px;
+  }
+  .blueprint {
+    height: 288px;
+  }
+  .layer-stack {
+    transform: rotate(-5deg) scale(0.85);
+    top: 0;
+  }
+  .scene-caption {
+    font-size: 8px;
+    bottom: 18px;
+    left: 15px;
+  }
+  .code-window {
+    width: 85%;
+    margin-right: 0;
+    margin-top: -43px;
+  }
+  .code-body {
+    font-size: 9px;
+    min-height: 127px;
+    padding: 13px;
+  }
+  .scene-bottom {
+    font-size: 9px;
+    gap: 7px;
+  }
+  .scene-bottom > span + span {
+    font-size: 8px;
+  }
+  .hero-bottom {
+    font-size: 8px;
+    margin-top: 8px;
+    gap: 12px;
+    padding-bottom: 22px;
+  }
+  .hero-bottom > a {
+    gap: 6px;
+  }
+  .capability-strip > .container {
+    gap: 10px;
+    justify-content: space-between;
+    min-height: 70px;
+    padding-block: 18px;
+  }
+  .capability-strip span {
+    font-size: 8px;
+    gap: 6px;
+  }
+  .capability-strip svg {
+    width: 13px;
+    height: 13px;
+  }
+  .capability-strip .strip-plus {
+    display: none;
+  }
+  .section {
+    padding-block: 65px;
+  }
+  .section-heading {
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+  .section-heading > p {
+    font-size: 14px;
+    max-width: 330px;
+  }
+  .section-heading > p br {
+    display: initial;
+  }
+  .section-kicker {
+    font-size: 10px;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-size: 35px;
+    letter-spacing: -1.6px;
+  }
+  .filters {
+    gap: 3px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .filters button {
+    font-size: 10px;
+    padding: 10px 12px;
+    gap: 7px;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .project-card:first-child {
+    grid-column: auto;
+  }
+  .project-card:first-child .project-art,
+  .project-card .project-art,
+  .project-card.filtered-card .project-art {
+    height: 280px;
+  }
+  .orbit-app,
+  .project-card.filtered-card .orbit-app {
+    width: 570px;
+    min-width: 570px;
+    transform: translateY(35px) rotate(-3deg) scale(0.7);
+  }
+  .project-open:hover .orbit-app {
+    transform: translateY(29px) rotate(-1deg) scale(0.7);
+  }
+  .orbit-app aside {
+    width: 110px;
+    padding-inline: 10px;
+  }
+  .orbit-main {
+    padding-inline: 16px;
+  }
+  .mini-stat-row {
+    gap: 6px;
+  }
+  .project-title h3 {
+    font-size: 22px;
+  }
+  .project-info p {
+    font-size: 14px;
+  }
+  .tags span {
+    font-size: 10px;
+  }
+  .project-info {
+    padding-top: 17px;
+  }
+  .relay-app {
+    transform: translateY(25px) rotate(-4deg) scale(0.85);
+  }
+  .project-open:hover .relay-app {
+    transform: translateY(18px) rotate(-1deg) scale(0.85);
+  }
+  .tempo-copy {
+    top: 55px;
+    left: 26px;
+  }
+  .tempo-copy > span:first-child {
+    font-size: 25px;
+  }
+  .tempo-copy > div {
+    display: flex;
+    gap: 3px;
+  }
+  .tempo-copy i {
+    width: 10px;
+    height: 10px;
+  }
+  .tempo-word {
+    font-size: 17px;
+    margin-top: 30px;
+  }
+  .phone {
+    top: 30px;
+    right: 22px;
+    transform: rotate(9deg) scale(0.93);
+  }
+  .project-open:hover .phone {
+    transform: translateY(-6px) rotate(5deg) scale(0.93);
+  }
+  .work-footnote {
+    font-size: 10px;
+    line-height: 1.7;
+    margin-top: 25px;
+  }
+  .stack-section .section-heading {
+    margin-bottom: 30px;
+  }
+  .technology-row {
+    padding-block: 25px;
+    gap: 20px;
+  }
+  .technology-title {
+    gap: 13px;
+  }
+  .technology-title h3 {
+    font-size: 16px;
+  }
+  .technology-title p {
+    font-size: 12px;
+  }
+  .category-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .technology-chips {
+    gap: 7px;
+  }
+  .technology-chips > span {
+    padding: 8px 10px;
+    font-size: 12px;
+    gap: 7px;
+  }
+  .technology-chips svg {
+    width: 14px;
+    height: 14px;
+  }
+  .stack-footnote {
+    font-size: 10px;
+  }
+  .about {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+  .about-visual {
+    height: 330px;
+    padding: 22px;
+  }
+  .about-label {
+    font-size: 9px;
+    gap: 8px;
+  }
+  .monogram {
+    font-size: 210px;
+    top: 44px;
+    letter-spacing: -20px;
+  }
+  .monogram-dot {
+    font-size: 75px;
+  }
+  .about-copy h2 {
+    font-size: 35px;
+  }
+  .about-copy > p {
+    font-size: 14px;
+  }
+  .approach > div > span {
+    font-size: 12px;
+  }
+  .approach strong {
+    font-size: 14px;
+  }
+  .contact-inner {
+    grid-template-columns: 1fr;
+    padding-block: 55px;
+    gap: 30px;
+  }
+  .contact-inner h2 {
+    font-size: 54px;
+  }
+  .contact-inner p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .contact-link {
+    font-size: 24px;
+    padding-block: 20px;
+  }
+  .email-row {
+    font-size: 11px;
+    gap: 8px;
+  }
+  .social-links {
+    margin-top: 10px;
+  }
+  .footer {
+    flex-wrap: wrap;
+    gap: 22px;
+    padding-block: 28px;
+    min-height: 130px;
+  }
+  .footer > .brand {
+    order: 0;
+  }
+  .footer > a:last-child {
+    order: 1;
+    margin-left: auto;
+  }
+  .footer > span {
+    order: 2;
+    width: 100%;
+    font-size: 10px;
+  }
+  .dialog-copy {
+    padding: 25px;
+  }
+  .dialog-copy h2 {
+    font-size: 34px;
+  }
+  .dialog-copy > p {
+    font-size: 14px;
+  }
+  .dialog-copy li {
+    font-size: 12px;
+  }
+  .project-dialog .project-art {
+    height: 250px;
+  }
+  .project-dialog .orbit-app {
+    transform: translateY(40px) rotate(-3deg) scale(0.65);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .button:hover {
+    transform: none;
+  }
+}
